@@ -10,7 +10,7 @@ export default function Hero() {
         <>
         <section className="text-gray-600 body-font">
             <div className="container mx-auto flex flex-col px-5 py-5 justify-center">
-                <h1 className={`${noto_Sans_KR_title.className} ${'sm:text-7xl text-white mb-4'}`}>Story <br/> Factory 
+                <h1 className={`${noto_Sans_KR_title.className} ${'text-6xl text-white mb-4'}`}>Story <br/> Factory 
                 <span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent">
                     .AI
                 </span>
