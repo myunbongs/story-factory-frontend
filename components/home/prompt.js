@@ -13,7 +13,8 @@ export default function Prompt() {
             <div className="flex flex-col items-center justify-center">
             <button className="text-white bg-indigo-900 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">콘티 생성하기</button>
             </div>
-            <p className="text-lg text-gray-500 mt-3">@저작권 표시 예정</p>
+            <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 mt-16"/>
+            <p className="flex flex-col items-center justify-center text-lg text-gray-500">Copyright ⓒ StoryFactory</p>
         </>
     )
 }
