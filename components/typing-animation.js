@@ -1,16 +1,16 @@
 import Typical from 'react-typical';
 
-export default function TypingAnimation() {
+export default function TypingAnimation({text}) {
     return (
         <div>
             <Typical
             steps={[
-            '자신만의 이야기로 동화책을 만들어보세요!',
-            1000,
+            text,
+            10000,
             ]}
             wrapper="p"
             loop={Infinity}
-            />
+            /> 
         </div>
     )
-  }
+}
