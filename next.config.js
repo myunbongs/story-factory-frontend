@@ -2,6 +2,15 @@
 
 const nextConfig = {
   reactStrictMode: true,
+  async rewrites() {
+    return [
+        {
+          source: '/:path*',
+          destination: 'http://117.16.45.69:80/:path*' 
+        },
+    ]
+  },
+
   images: {
     domains: [
       'www.notion.so',

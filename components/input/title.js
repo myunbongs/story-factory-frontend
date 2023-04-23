@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Title() {
     return (
-        <div className="p-6 bg-indigo-900 rounded-xl shadow-lg flex items-center space-x-4">
+        <div className="p-6 bg-indigo-900 hover:bg-purple-900 rounded-xl shadow-lg flex items-center space-x-4">
             <div className="shrink-0">
                 <p className="text-7xl">🤖</p>
             </div>

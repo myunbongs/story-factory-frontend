@@ -12,7 +12,7 @@ export default function Home() {
             <div className="container mx-auto flex flex-col px-5 py-5 justify-center">
               <Hero/>
               <Gallery/>
-              <Link href="/input">
+              <Link href="/story-factory">
                 <MainButton text={'시작하기'} color={'hover:from-indigo-900 hover:to-purple-900'}/>
               </Link>
               <Footer />

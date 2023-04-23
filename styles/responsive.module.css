@@ -6,6 +6,8 @@
   overflow: hidden;
 }
 .mySwiper {
+  justify-content: center;
+  align-items: center;
 }
 .swipItem {
   text-align: center;
