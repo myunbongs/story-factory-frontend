@@ -98,7 +98,7 @@ export default function StoryFactory() {
             
             { prediction != null && (
                 <>
-                <div className="absolute top-0 left-10 right-10 flex-col justify-center items-center bg-black">
+                <div className="absolute px-5 py-5 top-0 left-0 right-0 flex-col justify-center items-center bg-black">
                     <Result />
                     <Slider items={prediction.conti}/>
                     <Description />
