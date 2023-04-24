@@ -30,8 +30,8 @@ export default function StoryFactory() {
             "style": "sketch style",
             "model_gpt": "gpt-3.5-turbo",
             "model_diff": "runwayml/stable-diffusion-v1-5",
-            "height": 608,
-            "width": 416,
+            "height": 416,
+            "width": 608,
             "num_inference_steps": 30,
             "conti": {}
         }; 
