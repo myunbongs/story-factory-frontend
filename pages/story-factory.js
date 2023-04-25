@@ -16,7 +16,7 @@ export default function StoryFactory() {
     const [prediction, setPrediction] = useState(null)
     const [running, setRunning] = useState(false);
     const [errorMsg, setErrorMsg] = useState(null);
-
+    
     // const [running, setRunning] = useState(false)
     const handleSubmit = async (event) => {
         // Stop the form from submitting and refreshing the page.
@@ -34,7 +34,7 @@ export default function StoryFactory() {
             "width": 608,
             "num_inference_steps": 30,
             "conti": {}
-        }; 
+        };    
 
         // Send the data to the server in JSON format.
         const JSONdata = JSON.stringify(data)
@@ -47,7 +47,6 @@ export default function StoryFactory() {
                 '/txt2img',
                 JSONdata,
                 {
-                    timeout: Infinity, 
                     headers: {
                         'Content-Type': 'application/json',
                     },

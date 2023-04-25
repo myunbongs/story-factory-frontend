@@ -6,7 +6,7 @@ const nextConfig = {
     return [
         {
           source: '/:path*',
-          destination: 'http://117.16.45.69:80/:path*' 
+          destination: process.env.HOST + ':path*' 
         },
     ]
   },
